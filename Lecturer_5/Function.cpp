@@ -1,9 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main() {
 
-    int n;
+
+    void printName() {
+
+        int n;
     cout << " Enter the value of n" << endl;
     cin >> n;
 
@@ -11,5 +13,11 @@ int main() {
     {
         cout << "Rauhan" << endl;
     }
+    }
+
+    int main() {
+
+        //function call 
+        printName();
     
 }
