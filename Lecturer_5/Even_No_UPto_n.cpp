@@ -69,52 +69,41 @@ char getGrade(int marks) {
         }
     }
 
+    int getSum (int n) {
+        int sum = 0;
+        for (int i=1; i<=n; i++)
+        {
+            sum = sum  + i;
+        }
+        return sum;
+    }
+
+    int getEvenSum (int n) {
+        int sum = 0;
+        for (int i=2; i<=n; i =  i + 2)
+        {
+            sum = sum  + i;
+        }
+        return sum;
+    }
+
 
 int main()
 {
 
-    // function call
-    // printName();
-
-    // int a ;
-    // cout << "Enter the value of a: " << endl
-    // cin >> a;
-
-    // int b;
-    // cout << "Enter the value of b:" << endl;9
-    // cin >> b;
-
-    // int sum = add(a, b);
-
-    // cout << "Addition is: "<< sum << endl;
-    // printNumber(a);
-
-    // int a,b,c;
-    // cin >> a >> b >> c;
-
-    // int maximumNumber = findMax(a,b,c);
-    // cout << maximumNumber << endl;
 
     // int n;
-    // cout << "Enater the value of n:" << endl;
+    // cout << "Enter the vlaue of n" << endl;
     // cin >> n;
-
-    // printCounting(n);
-
-    // int marks;
-    // cout << "Enter the marks:" << endl;
-    // cin >> marks;
-
-    // char finalGrade = getGrade(marks);
-    // cout << finalGrade << endl;
+    // int ans = getSum(n);
+    // cout << "The sum of even numbers Upto " << n << "is " << ans << endl;
 
 
-    for (int i=1; i<=100; i++)
-    {
-        char ans = getGrade(i);
-        cout << "Grade for maerks=" << i << "is" << ans << endl;
-    }
-    
+    int n;
+    cout << "Enter the vlaue of n" << endl;
+    cin >> n;
+    int ans = getEvenSum(n);
+    cout << "The sum of even numbers Upto " << ans << endl;
 
     return 0;
 }
