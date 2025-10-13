@@ -14,10 +14,21 @@ int main() {
             {
                 cout << " ";
             }
-            else{
+            else if (col<= n-1){
                 cout << c;
                 c++;
             }
+            else if (col == n)
+            {
+              c = c -2;
+              cout<< c;
+              c--;
+            }
+            else{
+                cout<< c;
+                c--;
+            }
+            
         }
         k++;
         cout << endl;
