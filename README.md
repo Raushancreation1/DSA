@@ -11,61 +11,70 @@ It is organized topic-wise for easy navigation and learning.
 
 
 📁 C++_DSA
-
 │
 ├── 📘 Basics
+
 │ ├── input_output.cpp
 │ ├── loops.cpp
 │ └── functions.cpp
 │
 
 ├── 🔢 Mathematics
+
 │ ├── gcd.cpp
 │ ├── prime_check.cpp
 │ └── sieve.cpp
 │
 
 ├── 📊 Arrays
+
 │ ├── reverse_array.cpp
 │ ├── kadane.cpp
 │ └── two_sum.cpp
 │
 
 ├── 🧵 Strings
+
 │ ├── palindrome.cpp
 │ ├── anagram.cpp
 │ └── string_reverse.cpp
 │
 
 ├── 🧱 Stack
+
 │ ├── stack_array.cpp
 │ └── valid_parentheses.cpp
 │
 
 ├── 📚 Queue
+
 │ ├── queue_array.cpp
 │ └── circular_queue.cpp
 │
 
-├── 🌲 Trees
+├── 🌲 Trees4
+
 │ ├── binary_tree.cpp
 │ ├── bfs.cpp
 │ └── dfs.cpp
 │
 
 ├── 🔗 Linked List
+
 │ ├── singly_ll.cpp
 │ ├── doubly_ll.cpp
 │ └── reverse_ll.cpp
 │
 
 ├── 🕸 Graphs
+
 │ ├── adjacency_list.cpp
 │ ├── bfs.cpp
 │ └── dfs.cpp
 │
 
 └── ⚙️ Algorithms
+
 ├── sorting
 ├── searching
 └── recursion
